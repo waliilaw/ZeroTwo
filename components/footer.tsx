@@ -77,12 +77,12 @@ const router = useRouter()
                 </Link>
               </li>
               <li>
-                <Link href="/new-arrivals" className="text-muted-foreground hover:text-retro-cyan transition-colors">
+                <Link href="/stickers" className="text-muted-foreground hover:text-retro-cyan transition-colors">
                   New Arrivals
                 </Link>
               </li>
               <li>
-                <Link href="/bestsellers" className="text-muted-foreground hover:text-retro-cyan transition-colors">
+                <Link href="/stickers" className="text-muted-foreground hover:text-retro-cyan transition-colors">
                   Bestsellers
                 </Link>
               </li>
