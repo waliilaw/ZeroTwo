@@ -242,7 +242,7 @@ export default function FAQPage() {
             </div>
           ) : (
             <Tabs defaultValue="general" className="max-w-3xl mx-auto">
-              <TabsList className="w-full justify-start overflow-x-auto flex-nowrap mb-8 bg-transparent">
+              <TabsList className="w-full justify-start gap-7 md:gap-8 overflow-x-auto flex-nowrap mb-8 bg-transparent">
                 <TabsTrigger
                   value="general"
                   className="font-pixel text-sm data-[state=active]:bg-retro-yellow data-[state=active]:text-black"
@@ -253,7 +253,7 @@ export default function FAQPage() {
                   value="orders"
                   className="font-pixel text-sm data-[state=active]:bg-retro-pink data-[state=active]:text-white"
                 >
-                  Orders & Shipping
+                  Orders
                 </TabsTrigger>
                 <TabsTrigger
                   value="products"

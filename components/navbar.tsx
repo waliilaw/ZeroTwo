@@ -17,6 +17,10 @@ const navItems = [
   { name: "Coasters", path: "/coasters" },
   { name: "About", path: "/about" },
   { name: "FAQ", path: "/faq" },
+  { name: 'coasters' , path : '/coasters'},
+  { name: 'Terms' , path :'/terms'},
+  { name: 'Shipping' , path :'/shipping'},
+  
 ]
 
 export default function Navbar() {
