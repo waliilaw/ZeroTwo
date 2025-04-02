@@ -28,13 +28,7 @@ const products = [
     image: "/images/anime-character-3.png",
     category: "Stickers",
   },
-  {
-    id: "4",
-    name: "Pixel Warrior",
-    price: 3.99,
-    image: "/placeholder.svg?height=400&width=400",
-    category: "Stickers",
-  },
+
 ]
 
 export default function FeaturedProducts() {
@@ -70,7 +64,7 @@ export default function FeaturedProducts() {
               <ProductCard {...product} />
             </motion.div>
           ))}
-        </div>
+        </div>              
       </div>
     </section>
   )
